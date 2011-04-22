@@ -36,6 +36,7 @@ END_STRING
         attempts += 1
       end
     end
+    p "Code was -----> " + opponent.secret.to_s
   end
   
   rand = RandomDigits.new
